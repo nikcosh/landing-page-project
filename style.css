@@ -1,90 +1,111 @@
-/* Reset default margins and set base font */
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  background-color: #fff;
-  color: #000;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-/* Navbar */
-.navbar {
+body {
+  background: linear-gradient(to right, #6e78ff, #8f6bff);
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo wrapper */
 .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #1e1e2f;
+}
+
+nav {
   display: flex;
   align-items: center;
+  gap: 1.5rem;
 }
 
-.logo-img {
-  width: 150px;
-  max-height: 150px;
-  object-fit: contain;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
-
-nav a {
-  margin-left: 1.5rem;
+nav ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 0.95rem;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
-nav a:hover {
-  color: #000;
+nav ul li a:hover {
+  color: #6e78ff;
 }
 
-/* Hero section */
+.btn {
+  background: linear-gradient(to right, #6e78ff, #8f6bff);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
 .hero {
-  text-align: center;
-  padding: 5rem 1rem;
-  background-color: #f2f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+  background: #fff;
+  border-radius: 0 0 60px 60px;
+  overflow: hidden;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero .text {
+  max-width: 500px;
+}
+
+.hero .text h1 {
+  font-size: 3rem;
+  color: #1e1e2f;
   margin-bottom: 1rem;
 }
 
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #666;
+.hero .text p {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
-/* Button style */
-button {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  background-color: #0078d4;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #005a9e;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 2rem;
-  background-color: #fafafa;
-  font-size: 0.9rem;
-  color: #777;
-}
-.center-animation {
-  display: block;
-  margin: 2rem auto;
-  max-width: 200px;
-  height: auto;
+.hero .image img {
+  max-width: 500px;
+  width: 100%;
 }
