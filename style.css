@@ -6,7 +6,7 @@ body {
   color: #000;
 }
 
-/* Navigation bar like Apple */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -16,10 +16,18 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo wrapper */
 .logo {
-  font-weight: bold;
-  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
 }
+
+/* Logo image */
+.logo-img {
+  max-height: 40px;   /* This keeps it small */
+  width: auto;
+}
+
 
 nav a {
   margin-left: 1.5rem;
@@ -79,9 +87,4 @@ footer {
   margin: 2rem auto;
   max-width: 200px;
   height: auto;
-}
-
-.logo-img {
-  height: 40px;
-  width: auto;
 }
