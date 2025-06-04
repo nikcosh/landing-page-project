@@ -78,6 +78,6 @@ footer {
   display: block;
   margin: 2rem auto;
   max-width: 25%;
-  height: 25%;
+  height: auto;
 }
 
