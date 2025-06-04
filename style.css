@@ -172,3 +172,14 @@ nav {
     font-size: 0.9rem;
   }
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 150px;
+  max-height: 150px;
+  object-fit: contain;
+}
