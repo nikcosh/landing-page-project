@@ -22,10 +22,10 @@ body {
   align-items: center;
 }
 
-/* Logo image */
 .logo-img {
-  max-height: 40px;   /* This keeps it small */
-  width: auto;
+  width: 200px;
+  height: auto;
+  object-fit: contain;
 }
 
 
