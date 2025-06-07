@@ -219,4 +219,5 @@ nav {
   cursor: pointer;
   border: none;
   transition: background 0.3s ease;
+  margin-top: 2rem;
 }
