@@ -2,6 +2,7 @@
 
 /* Center the whole pricing container */
 .pricing-container {
+  text-align: center;
   display: flex;
   justify-content: center;
   gap: 2rem;
