@@ -60,6 +60,7 @@
   border: none;
   text-decoration: none;
   transition: background 0.3s ease;
+  margin-top: 1rem;
 }
 
 .pricing-box .btn:hover,
