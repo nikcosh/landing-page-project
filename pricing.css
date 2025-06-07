@@ -108,6 +108,7 @@
 }
 
 .logo-container img {
+  margin-top: 2rem;
   height: 60px;  
   width: auto;
   display: block;
