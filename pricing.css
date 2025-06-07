@@ -1,3 +1,5 @@
+/* pricing.css */
+
 .pricing-title {
   text-align: center;
   margin-top: 2rem;
@@ -19,15 +21,11 @@
 
 /* Each pricing box style */
 .pricing-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* Push button to bottom */
-  height: 100%;
-  max-width: 280px;
   background: #f9f9ff;
   border: 1px solid #ddd;
   border-radius: 12px;
   padding: 2rem;
+  max-width: 280px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: box-shadow 0.3s ease;
@@ -54,7 +52,6 @@
 
 /* Description text */
 .pricing-box p {
-  flex-grow: 1;  /* Take up available space to push button down */
   font-size: 1rem;
   color: #444;
   margin-bottom: 1.5rem;
@@ -124,6 +121,12 @@
   align-items: center;
 }
 
+.pricing-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
 .back-to-home {
   margin-top: 0.5rem;
   margin-bottom: 2rem;
@@ -140,3 +143,4 @@
 .logo-container img:hover {
   transform: scale(1.05);
 }
+
