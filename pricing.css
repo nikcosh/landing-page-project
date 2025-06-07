@@ -1,8 +1,16 @@
 /* pricing.css */
 
+.pricing-title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #1e1e2f;
+  font-size: 2rem;
+  font-weight: 700;
+} 
+
 /* Center the whole pricing container */
 .pricing-container {
-  text-align: center;
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -90,3 +98,4 @@
     margin-bottom: 2rem;
   }
 }
+
