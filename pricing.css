@@ -106,3 +106,10 @@
   align-items: center;
   margin-bottom: 2rem;
 }
+
+.logo-container img {
+  height: 60px;  
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
