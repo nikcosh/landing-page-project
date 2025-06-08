@@ -153,3 +153,12 @@ nav ul li a.active {
 main {
   flex: 1;
 }
+
+footer {
+  position: relative;
+  background-color: #111;
+  padding-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  border-top: 4rem solid #ffffff;
+}

@@ -109,7 +109,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background: #f5f5f5;
+  background: #ffffff;
+  padding-bottom: 5rem;
 }
 
 .hero img {
@@ -201,7 +202,7 @@ nav {
 .about-us-section {
   text-align: center;
   padding: 4rem 2rem;
-  background: #f9f9f9;
+  background: #ffffff;
   margin-bottom: 0;
   padding-bottom: 5rem;
 }
@@ -281,7 +282,14 @@ footer {
   text-align: center;
   border-top: 4rem solid #f9f9f9;
 }
-
+footer {
+  position: relative;
+  background-color: #111;
+  padding-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  border-top: 4rem solid #ffffff;
+}
 .footer-content {
   display: flex;
   flex-direction: column;
