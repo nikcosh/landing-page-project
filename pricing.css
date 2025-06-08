@@ -1,6 +1,4 @@
-/* pricing.css */
-
-.pricing-title {
+ .pricing-title {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -9,7 +7,6 @@
   font-weight: 700;
 } 
 
-/* Center the whole pricing container */
 .pricing-container {
   display: flex;
   justify-content: center;
@@ -19,7 +16,6 @@
   padding: 0 1rem;
 }
 
-/* Each pricing box style */
 .pricing-box {
   background: #f9f9ff;
   border: 1px solid #ddd;
@@ -35,14 +31,12 @@
   box-shadow: 0 12px 40px rgba(110, 120, 255, 0.3);
 }
 
-/* Plan title */
 .pricing-box h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: #1e1e2f;
 }
 
-/* Price */
 .pricing-box .price {
   font-size: 2rem;
   font-weight: 700;
@@ -50,14 +44,12 @@
   margin-bottom: 1.5rem;
 }
 
-/* Description text */
 .pricing-box p {
   font-size: 1rem;
   color: #444;
   margin-bottom: 1.5rem;
 }
 
-/* Button inside pricing box */
 .pricing-box .btn {
   display: inline-block;
   padding: 0.6rem 1.2rem;
@@ -78,7 +70,6 @@
   outline: none;
 }
 
-/* Logo on pricing page */
 .pricing-logo {
   display: block;
   margin: 2rem auto 1rem auto;
@@ -86,7 +77,6 @@
   object-fit: contain;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .pricing-container {
     flex-direction: column;
