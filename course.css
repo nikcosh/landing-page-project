@@ -143,17 +143,6 @@ nav ul li a.active {
   }
 }
 
-
-.page-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1;
-}
-
 footer {
   position: relative;
   background-color: #111;
