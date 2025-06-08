@@ -113,6 +113,8 @@
   width: auto;
   display: block;
   margin: 0 auto;
+  transition: transform 0.5s ease;
+
 }
 
 .pricing-section {
@@ -140,7 +142,7 @@
   border-radius: 30px;
 }
 
-.logo-container img:hover {
+.logo img:hover {
   transform: scale(1.05);
 }
 
